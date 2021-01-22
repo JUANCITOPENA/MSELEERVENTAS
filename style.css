@@ -1,3 +1,16 @@
+body {
+    background-color: #ced6e0;
+}
+
+.content {
+    width: 95%;
+    height: 100%vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f1f2f6;
+}
+
 .mySlides {
     display: none;
     width: 550px;
@@ -17,6 +30,8 @@
     text-align: center;
     font-size: 22px;
     color: cornflowerblue;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .h2 {
@@ -50,28 +65,273 @@ p {
 
 /* Media Queries - This is the responsive grid. */
 
-@media (max-width: 1024px) {
-    .video {
-        width: 100%;
-        /* Thumbnails 3 across */
-    }
-}
-
-@media (max-width: 600px) {
-    .video {
-        width: 100%;
-        /* Thumbnails 2 across */
-    }
-}
-
-@media (max-width: 360px) {
-    .video {
+@media only screen and (max-width: 600px) and (min-width: 400px) {
+    .content {
+        width: 95%;
+        height: 100%vh;
         display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #f1f2f6;
+    }
+    .mySlides {
+        display: none;
+        width: 90%;
+        height: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .titulo {
+        text-align: center;
+        font-size: 32px;
+        color: black;
+    }
+    .manual {
+        text-align: center;
+        font-size: 22px;
+        color: cornflowerblue;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .h2 {
+        text-align: center;
+        font-size: 18px;
+        color: #c0392b;
+    }
+    hr {
+        height: 50px;
+        background-color: red;
+    }
+    .card-title {
+        text-align: center;
+        font-size: 28px;
+        color: black;
+    }
+    p {
+        text-align: center;
+        font-size: 18px;
+        color: #1B1464;
+    }
+    .video {
         width: 100%;
-        /* Single column view. */
-        margin: 2%;
-        /* The smaller the screen, the smaller the percentage actually is. */
-        float: none;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 414px) and (min-width: 896px) {
+    .content {
+        width: 95%;
+        height: 100%vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #f1f2f6;
+    }
+    .mySlides {
+        display: none;
+        width: 90%;
+        height: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .titulo {
+        text-align: center;
+        font-size: 32px;
+        color: black;
+    }
+    .manual {
+        text-align: center;
+        font-size: 22px;
+        color: cornflowerblue;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .h2 {
+        text-align: center;
+        font-size: 18px;
+        color: #c0392b;
+    }
+    hr {
+        height: 50px;
+        background-color: red;
+    }
+    .card-title {
+        text-align: center;
+        font-size: 28px;
+        color: black;
+    }
+    p {
+        text-align: center;
+        font-size: 18px;
+        color: #1B1464;
+    }
+    .video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 400px) {
+    .content {
+        width: 95%;
+        height: 100%vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #f1f2f6;
+    }
+    .mySlides {
+        display: none;
+        width: 90%;
+        height: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .titulo {
+        text-align: center;
+        font-size: 32px;
+        color: black;
+    }
+    .manual {
+        text-align: center;
+        font-size: 22px;
+        color: cornflowerblue;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .h2 {
+        text-align: center;
+        font-size: 18px;
+        color: #c0392b;
+    }
+    hr {
+        height: 50px;
+        background-color: red;
+    }
+    .card-title {
+        text-align: center;
+        font-size: 28px;
+        color: black;
+    }
+    p {
+        text-align: center;
+        font-size: 18px;
+        color: #1B1464;
+    }
+    .video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 360px) and (min-width: 740px) {
+    .content {
+        width: 95%;
+        height: 100%vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #f1f2f6;
+    }
+    .mySlides {
+        display: none;
+        width: 90%;
+        height: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .titulo {
+        text-align: center;
+        font-size: 32px;
+        color: black;
+    }
+    .manual {
+        text-align: center;
+        font-size: 22px;
+        color: cornflowerblue;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .h2 {
+        text-align: center;
+        font-size: 18px;
+        color: #c0392b;
+    }
+    hr {
+        height: 50px;
+        background-color: red;
+    }
+    .card-title {
+        text-align: center;
+        font-size: 28px;
+        color: black;
+    }
+    p {
+        text-align: center;
+        font-size: 18px;
+        color: #1B1464;
+    }
+    .video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 375px) and (min-width: 812px) {
+    .content {
+        width: 95%;
+        height: 100%vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #f1f2f6;
+    }
+    .mySlides {
+        display: none;
+        width: 90%;
+        height: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .titulo {
+        text-align: center;
+        font-size: 32px;
+        color: black;
+    }
+    .manual {
+        text-align: center;
+        font-size: 22px;
+        color: cornflowerblue;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .h2 {
+        text-align: center;
+        font-size: 18px;
+        color: #c0392b;
+    }
+    hr {
+        height: 50px;
+        background-color: red;
+    }
+    .card-title {
+        text-align: center;
+        font-size: 28px;
+        color: black;
+    }
+    p {
+        text-align: center;
+        font-size: 18px;
+        color: #1B1464;
+    }
+    .video {
+        width: 100%;
+        height: auto;
     }
 }
 
